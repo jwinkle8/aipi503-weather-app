@@ -3,6 +3,15 @@ A small application that fetches the weather for one city at a time and report i
 
 Optionally, configure your favorite measurement system and the level of detail with which the weather is reported.
 
+## Note for instructors
+
+This repository contains my solutions for both Week 5 Day 1 and Week 5 Day 2. The below table describes my solutions for specific challenges:
+
+| Day | Solution file |
+|-------|----------------|
+| Day 1 | weather_app.py |
+| Day 2 | streamlit_weather_app.py |
+
 ## Setup
 1. Create a virtual environment.
 2. Install project dependencies:
@@ -14,7 +23,11 @@ Optionally, configure your favorite measurement system and the level of detail w
     ```
     OPENWEATHER_API_KEY=<your_key_here>
     ```
-5. Run the aipi503-weather-app CLI.
+5. If running the CLI app, run `weather_app.py`.
     ```
     python weather_app.py
+    ```
+    Otherwise, run the `streamlit` application
+    ```
+    python -m streamlit run streamlit_weather_app.py
     ```
