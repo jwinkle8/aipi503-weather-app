@@ -1,5 +1,5 @@
 # aipi503-weather-app
-A small application that fetches the weather for one city at a time and report it to the CLI.
+A small application that fetches the weather for one city at a time.
 
 Optionally, configure your favorite measurement system and the level of detail with which the weather is reported.
 
@@ -27,7 +27,7 @@ This repository contains my solutions for both Week 5 Day 1 and Week 5 Day 2. Th
     ```
     python weather_app.py
     ```
-    Otherwise, run the `streamlit` application
+    Otherwise, run the `streamlit` application:
     ```
     python -m streamlit run streamlit_weather_app.py
     ```
