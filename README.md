@@ -27,7 +27,7 @@ This repository contains my solutions for both Week 5 Day 1 and Week 5 Day 2. Th
     ```
     python weather_app.py
     ```
-    Otherwise, run the `streamlit` application
+    Otherwise, run the `streamlit` application:
     ```
     python -m streamlit run streamlit_weather_app.py
     ```
