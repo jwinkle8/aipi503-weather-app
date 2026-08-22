@@ -1,5 +1,5 @@
 # aipi503-weather-app
-A small application that fetches the weather for one city at a time and report it to the CLI.
+A small application that fetches the weather for one city at a time.
 
 Optionally, configure your favorite measurement system and the level of detail with which the weather is reported.
 
